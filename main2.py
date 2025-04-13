@@ -6,6 +6,7 @@ from sklearn.metrics import accuracy_score
 import graphviz
 
 np.random.seed(47)
+
 iris = datasets.load_iris()
 print("資料集的特徵欄位名稱：", iris.feature_names)
 print("資料集的目標值：", iris.target_names)
